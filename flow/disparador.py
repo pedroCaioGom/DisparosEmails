@@ -5,13 +5,9 @@ from utils.email import Email
 
 class Disparador:
     def __init__(self, caminho_pdf):
-        self.caminho_planilha = r'D:\Python\DepartamentoPessoal\arquivos\planilha\Dados.xlsx'
+        self.caminho_planilha = r'caminho_planilha.xlsx'
         self.caminho_pdf = caminho_pdf
         self.beneficiario = None
-
-        #fazer um loop na pasta D:\Python\DepartamentoPessoal\pdf_separados para que consiga passar cada caminho_pdf
-        #caminho_pdf = r'D:\Python\DepartamentoPessoal\pdf_separados\JOAO_VITOR_NERES_CABRAL_05420519151_45936979000142.pdf'
-
 
     def executar_pdf(self):
         # ==============================

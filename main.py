@@ -4,7 +4,7 @@ from flow.disparador import Disparador
 
 
 def main():
-    pasta = Path(r"D:\Python\DepartamentoPessoal\pdf_separados")
+    pasta = Path(r"pasta_raiz_dos_pdfs")
 
     for arquivo in pasta.glob("*.pdf"):
         print(f"\nProcessando arquivo: {arquivo.name}")
